@@ -16,20 +16,20 @@
     },
     {
       "name": "Oro (oz)",
-      "price": 4569.7,
-      "changePct": 0.6,
+      "price": 4574.95,
+      "changePct": 0.71,
       "currency": "USD"
     },
     {
       "name": "Bitcoin",
-      "price": 77377,
-      "changePct": 0.99,
+      "price": 77382,
+      "changePct": 1.01,
       "currency": "USD"
     },
     {
       "name": "Ethereum",
-      "price": 2119.74,
-      "changePct": 1.22,
+      "price": 2119.97,
+      "changePct": 1.28,
       "currency": "USD"
     }
   ]
