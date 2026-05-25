@@ -24,6 +24,7 @@
     </a>
     <nav class="nav-links">
       <a href="#calendario">Calendario</a>
+      <a href="#retiro">Retiro</a>
       <a href="#remesas">Remesas</a>
       <a href="#interes">Interés</a>
       <a href="#mercado">Mercado</a>
@@ -141,10 +142,60 @@
       </div>
     </section>
 
-    <!-- ============ SECCIÓN 2: REMESAS ============ -->
-    <section class="section" id="remesas">
+    <!-- ============ SECCIÓN 2: RETIRO ============ -->
+    <section class="section" id="retiro">
       <div class="section-head">
         <span class="section-index">02</span>
+        <div>
+          <h2 class="section-title">Plan de retiro</h2>
+          <p class="section-desc">Estima tu ahorro al retirarte y tu ingreso mensual —incluyendo el <em>Seguro Social</em> de EE.UU.— en dólares de hoy y ajustado a la inflación.</p>
+        </div>
+      </div>
+
+      <div class="retiro-layout">
+        <aside class="retiro-controls card">
+          <div class="field-row">
+            <label class="field"><span>Edad actual</span><input type="number" id="rAge" value="30" min="18" max="80" /></label>
+            <label class="field"><span>Edad de retiro</span><input type="number" id="rRetire" value="65" min="50" max="75" /></label>
+          </div>
+          <label class="field"><span>Ahorro actual (USD)</span><input type="number" id="rCurrent" value="10000" min="0" step="500" /></label>
+          <label class="field"><span>Ahorro mensual (USD)</span><input type="number" id="rMonthly" value="500" min="0" step="50" /></label>
+          <label class="field"><span>Gasto mensual actual (USD)</span><input type="number" id="rSpend" value="2500" min="0" step="50" /></label>
+          <label class="field"><span>Ingreso anual (USD) <small>— para Seguro Social</small></span><input type="number" id="rIncome" value="60000" min="0" step="1000" /></label>
+          <label class="field slider-field"><span>Rendimiento anual <b id="rValReturn">7%</b></span><input type="range" id="rReturn" min="1" max="12" step="0.5" value="7" /></label>
+          <label class="field slider-field"><span>Inflación anual <b id="rValInfl">3%</b></span><input type="range" id="rInfl" min="0" max="8" step="0.5" value="3" /></label>
+        </aside>
+
+        <div class="retiro-results">
+          <div class="retiro-chart card"><canvas id="retiroCanvas"></canvas></div>
+          <div class="retiro-cards">
+            <div class="rcard">
+              <span class="rc-label">Ahorro total al retiro</span>
+              <span class="rc-big" id="rNestNominal">—</span>
+              <span class="rc-sub">≈ <b id="rNestReal">—</b> en dólares de hoy</span>
+            </div>
+            <div class="rcard accent">
+              <span class="rc-label">Ingreso mensual al retiro</span>
+              <span class="rc-big" id="rIncNominal">—</span>
+              <span class="rc-sub">≈ <b id="rIncReal">—</b> en dólares de hoy</span>
+            </div>
+          </div>
+          <div class="retiro-breakdown card">
+            <div class="rb-row"><span>De tus ahorros <small>(regla del 4%)</small></span><b id="rbSavings">—</b></div>
+            <div class="rb-row"><span>Seguro Social estimado</span><b id="rbSS">—</b></div>
+            <div class="rb-divider"></div>
+            <div class="rb-row"><span id="rbCoverageLabel">Cobertura de tu gasto actual</span><b id="rbCoverage" class="accent-em">—</b></div>
+            <p class="rb-note" id="rbNote"></p>
+          </div>
+        </div>
+      </div>
+      <p class="disclaimer">⚠ Estimación educativa. El Seguro Social usa la fórmula de la SSA (bend points 2025) asumiendo ingreso estable a lo largo de tu carrera; tu beneficio real depende de tu historial de 35 años. Verifica en ssa.gov.</p>
+    </section>
+
+    <!-- ============ SECCIÓN 3: REMESAS ============ -->
+    <section class="section" id="remesas">
+      <div class="section-head">
+        <span class="section-index">03</span>
         <div>
           <h2 class="section-title">Enviar dinero a México</h2>
           <p class="section-desc">Las mejores formas de enviar de EE.UU. a México: mayor tipo de cambio, menores comisiones.</p>
@@ -186,10 +237,10 @@
       <p class="disclaimer">⚠ Valores estimados con fuentes públicas. Verifica el tipo de cambio y comisión en la app del proveedor antes de enviar.</p>
     </section>
 
-    <!-- ============ SECCIÓN 3: INTERÉS COMPUESTO ============ -->
+    <!-- ============ SECCIÓN 4: INTERÉS COMPUESTO ============ -->
     <section class="section" id="interes">
       <div class="section-head">
-        <span class="section-index">03</span>
+        <span class="section-index">04</span>
         <div>
           <h2 class="section-title">Interés compuesto</h2>
           <p class="section-desc">Proyecta cuánto crece tu dinero invirtiendo cada mes, y compáralo con otros activos.</p>
@@ -265,10 +316,10 @@
       </div>
     </section>
 
-    <!-- ============ SECCIÓN 4: MERCADO + FOROS ============ -->
+    <!-- ============ SECCIÓN 5: MERCADO + FOROS ============ -->
     <section class="section" id="mercado">
       <div class="section-head">
-        <span class="section-index">04</span>
+        <span class="section-index">05</span>
         <div>
           <h2 class="section-title">Pulso de mercado</h2>
           <p class="section-desc">Mercados, y lo mejor del día en foros de finanzas de EE.UU. y México.</p>
@@ -289,6 +340,11 @@
           <h3 class="forum-head"><span class="flag">🇲🇽</span> Foros México</h3>
           <div class="forum-list" id="forumMX"><div class="loading">Cargando…</div></div>
         </div>
+      </div>
+
+      <div class="forum-extra">
+        <h3 class="forum-head"><span class="flag">💸</span> Ganar dinero extra <small>en línea y físico</small></h3>
+        <div class="forum-list forum-list-grid" id="forumExtra"><div class="loading">Cargando…</div></div>
       </div>
     </section>
   </main>
@@ -323,6 +379,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/calendar.js"></script>
+  <script src="js/retiro.js"></script>
   <script src="js/remesas.js"></script>
   <script src="js/interes.js"></script>
   <script src="js/feeds.js"></script>

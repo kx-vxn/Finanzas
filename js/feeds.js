@@ -32,6 +32,7 @@
     const data = await FZ.getJSON('data/reddit.json');
     renderForum('forumUS', data && data.us);
     renderForum('forumMX', data && data.mx);
+    renderForum('forumExtra', data && data.extra);
   }
 
   function renderForum(id, items) {

@@ -316,6 +316,29 @@ input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 
 .region-card li::before { content: "→"; position: absolute; left: 0; color: var(--em); }
 .region-card li b { color: var(--text); font-weight: 600; }
 
+/* ============ RETIRO ============ */
+.retiro-layout { display: grid; grid-template-columns: 320px 1fr; gap: 22px; align-items: start; }
+.retiro-controls .field { margin-bottom: 14px; }
+.field small { color: var(--muted-2); font-weight: 400; }
+.retiro-results { display: flex; flex-direction: column; gap: 18px; }
+.retiro-chart { min-height: 240px; }
+.retiro-chart canvas { width: 100% !important; max-height: 240px; }
+.retiro-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.rcard { background: linear-gradient(180deg, var(--surface) 0%, var(--ink-2) 100%); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; display: flex; flex-direction: column; gap: 6px; }
+.rcard.accent { border-color: var(--em-deep); box-shadow: var(--glow-em); }
+.rc-label { font-size: .76rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted-2); }
+.rc-big { font-family: var(--mono); font-size: 1.8rem; font-weight: 600; color: var(--text); line-height: 1.1; }
+.rcard.accent .rc-big { color: var(--em); }
+.rc-sub { font-family: var(--mono); font-size: .8rem; color: var(--muted-2); }
+.rc-sub b { color: var(--gold); }
+.retiro-breakdown { padding: 20px 24px; }
+.rb-row { display: flex; justify-content: space-between; align-items: baseline; padding: 9px 0; font-size: .92rem; }
+.rb-row span { color: var(--muted); }
+.rb-row span small { color: var(--muted-2); }
+.rb-row b { font-family: var(--mono); }
+.rb-divider { height: 1px; background: var(--line); margin: 6px 0; }
+.rb-note { font-size: .86rem; color: var(--muted); margin-top: 12px; line-height: 1.5; }
+
 /* ============ MERCADO ============ */
 .market-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 44px; }
 .market-card { background: linear-gradient(180deg, var(--surface) 0%, var(--ink-2) 100%); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 18px; transition: transform .2s, border-color .2s; }
@@ -329,6 +352,9 @@ input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 
 .forums-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
 .forum-head { font-family: var(--serif); font-size: 1.4rem; font-weight: 600; margin-bottom: 18px; display: flex; align-items: center; gap: 10px; }
 .forum-head .flag { font-size: 1.3rem; }
+.forum-head small { font-family: var(--sans); font-size: .82rem; font-weight: 400; color: var(--muted-2); }
+.forum-extra { margin-top: 40px; }
+.forum-list-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .forum-list { display: flex; flex-direction: column; gap: 10px; }
 .forum-item { display: block; text-decoration: none; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 15px 17px; transition: all .2s; }
 .forum-item:hover { border-color: var(--em); background: var(--surface-2); transform: translateX(3px); }
@@ -377,7 +403,7 @@ input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 
 @media (max-width: 980px) {
   .cal-layout { grid-template-columns: 1fr; }
   .cal-config, .cal-summary { position: static; }
-  .interes-layout { grid-template-columns: 1fr; }
+  .interes-layout, .retiro-layout { grid-template-columns: 1fr; }
   .region-cards, .forums-layout { grid-template-columns: 1fr; }
 }
 @media (max-width: 620px) {
@@ -387,4 +413,5 @@ input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 
   .remesas-best { text-align: left; }
   .recurring-add { grid-template-columns: 1fr 1fr; }
   .recurring-add input:first-child { grid-column: 1 / -1; }
+  .retiro-cards, .forum-list-grid { grid-template-columns: 1fr; }
 }

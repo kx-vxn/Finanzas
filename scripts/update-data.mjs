@@ -114,11 +114,13 @@ async function collect(subs) {
 async function reddit() {
   const us = await collect(['personalfinance', 'investing', 'Bogleheads', 'financialindependence', 'stocks']);
   const mx = await collect(['MexicoFinanciero', 'MexicoBursatil', 'finanzasmexico']);
+  const extra = await collect(['sidehustle', 'beermoney', 'passive_income', 'Flipping', 'Entrepreneur', 'freelance', 'EtsySellers', 'WorkOnline']);
   const prev = await readPrev('reddit.json') || {};
   await writeJSON('reddit.json', {
     updated: TODAY, source: 'reddit',
     us: us.length ? us : (prev.us || []),
     mx: mx.length ? mx : (prev.mx || []),
+    extra: extra.length ? extra : (prev.extra || []),
   });
 }
 
