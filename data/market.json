@@ -22,14 +22,14 @@
     },
     {
       "name": "Bitcoin",
-      "price": 77251,
-      "changePct": 0.93,
+      "price": 77242,
+      "changePct": 0.92,
       "currency": "USD"
     },
     {
       "name": "Ethereum",
-      "price": 2111.28,
-      "changePct": 1.04,
+      "price": 2108.57,
+      "changePct": 0.91,
       "currency": "USD"
     }
   ]
