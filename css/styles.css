@@ -329,8 +329,10 @@ input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 
 .rc-label { font-size: .76rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted-2); }
 .rc-big { font-family: var(--mono); font-size: 1.8rem; font-weight: 600; color: var(--text); line-height: 1.1; }
 .rcard.accent .rc-big { color: var(--em); }
+.rc-today { font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; color: var(--em); margin-top: -2px; }
+.rcard.accent .rc-today { color: var(--gold); }
 .rc-sub { font-family: var(--mono); font-size: .8rem; color: var(--muted-2); }
-.rc-sub b { color: var(--gold); }
+.rc-sub b { color: var(--text); }
 .retiro-breakdown { padding: 20px 24px; }
 .rb-row { display: flex; justify-content: space-between; align-items: baseline; padding: 9px 0; font-size: .92rem; }
 .rb-row span { color: var(--muted); }
