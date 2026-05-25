@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finanzas — Claridad para tu dinero</title>
+  <meta name="description" content="Calendario de gastos, mejores remesas EE.UU.→México, interés compuesto y pulso de mercado. Datos actualizados a diario." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230A0E14'/%3E%3Cpath d='M11 23V9h10M11 16h7' stroke='%2334D399' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="bg-atmosphere" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="26" height="26"><path d="M11 23V9h10M11 16h7" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>
+      </span>
+      <span class="brand-name">Finanzas</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#calendario">Calendario</a>
+      <a href="#remesas">Remesas</a>
+      <a href="#interes">Interés</a>
+      <a href="#mercado">Mercado</a>
+    </nav>
+    <div class="fx-chip" id="navFx" title="Tipo de cambio del día">
+      <span class="fx-dot"></span>
+      <span class="fx-label">USD/MXN</span>
+      <span class="fx-value" id="navFxValue">—</span>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <p class="eyebrow reveal">Finanzas personales · EE.UU. ⇄ México</p>
+      <h1 class="hero-title">
+        <span class="reveal" style="--d:.05s">Claridad</span>
+        <span class="reveal serif-italic" style="--d:.12s">para tu</span>
+        <span class="reveal accent-em" style="--d:.19s">dinero.</span>
+      </h1>
+      <p class="hero-sub reveal" style="--d:.28s">
+        Planea tus gastos quincena por quincena, encuentra la mejor forma de enviar dinero
+        a México, proyecta tu interés compuesto y sigue el pulso del mercado. Todo en un solo lugar,
+        actualizado cada día.
+      </p>
+      <div class="hero-cta reveal" style="--d:.36s">
+        <a href="#calendario" class="btn btn-primary">Empezar a planear</a>
+        <a href="#remesas" class="btn btn-ghost">Comparar remesas</a>
+      </div>
+      <div class="hero-stats reveal" style="--d:.44s">
+        <div class="hstat">
+          <span class="hstat-num" id="heroFx">—</span>
+          <span class="hstat-lbl">USD/MXN hoy</span>
+        </div>
+        <div class="hstat">
+          <span class="hstat-num" id="heroSp">—</span>
+          <span class="hstat-lbl">S&amp;P 500</span>
+        </div>
+        <div class="hstat">
+          <span class="hstat-num" id="heroBtc">—</span>
+          <span class="hstat-lbl">Bitcoin</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue reveal" style="--d:.6s" aria-hidden="true"><span></span></div>
+  </section>
+
+  <main>
+    <!-- ============ SECCIÓN 1: CALENDARIO ============ -->
+    <section class="section" id="calendario">
+      <div class="section-head">
+        <span class="section-index">01</span>
+        <div>
+          <h2 class="section-title">Calendario de gastos</h2>
+          <p class="section-desc">Captura tu ingreso quincenal y tus gastos. Cada mes verás cuánto <em>puedes gastar</em> o cuánto <em>debes</em>.</p>
+        </div>
+      </div>
+
+      <div class="cal-layout">
+        <!-- Panel de configuración -->
+        <aside class="cal-config card">
+          <h3 class="card-title">Tu ingreso</h3>
+          <label class="field">
+            <span>Ingreso quincenal (USD)</span>
+            <input type="number" id="cfgQuincenal" inputmode="decimal" placeholder="1500" min="0" step="50" />
+          </label>
+          <div class="field-row">
+            <label class="field">
+              <span>Día de pago 1</span>
+              <input type="number" id="cfgPay1" min="1" max="31" placeholder="15" />
+            </label>
+            <label class="field">
+              <span>Día de pago 2</span>
+              <input type="number" id="cfgPay2" min="1" max="31" placeholder="30" />
+            </label>
+          </div>
+
+          <h3 class="card-title mt">Gastos fijos mensuales</h3>
+          <div class="recurring-list" id="recurringList"></div>
+          <form class="recurring-add" id="recurringForm">
+            <input type="text" id="recName" placeholder="Renta, luz, suscripción…" required />
+            <input type="number" id="recAmount" placeholder="USD" min="0" step="1" required />
+            <input type="number" id="recDay" placeholder="Día" min="1" max="31" required />
+            <button type="submit" class="btn-icon" title="Agregar gasto fijo">+</button>
+          </form>
+          <p class="hint">Tus datos se guardan solo en este navegador.</p>
+        </aside>
+
+        <!-- Calendario -->
+        <div class="cal-main card">
+          <div class="cal-toolbar">
+            <button class="nav-btn" id="calPrev" aria-label="Mes anterior">‹</button>
+            <h3 class="cal-month" id="calMonth">—</h3>
+            <button class="nav-btn" id="calNext" aria-label="Mes siguiente">›</button>
+          </div>
+          <div class="cal-weekdays">
+            <span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span>
+          </div>
+          <div class="cal-grid" id="calGrid"></div>
+          <p class="hint">Toca un día para registrar un gasto puntual.</p>
+        </div>
+
+        <!-- Resumen -->
+        <aside class="cal-summary card">
+          <h3 class="card-title">Resumen del mes</h3>
+          <div class="sum-row"><span>Ingreso</span><b id="sumIncome" class="pos">—</b></div>
+          <div class="sum-row"><span>Gastos</span><b id="sumExpense" class="neg">—</b></div>
+          <div class="sum-divider"></div>
+          <div class="sum-row big"><span>Disponible</span><b id="sumNet">—</b></div>
+          <div class="sum-mxn" id="sumNetMxn">— MXN</div>
+          <div class="sum-row"><span>Gasto diario sugerido</span><b id="sumDaily">—</b></div>
+          <div class="sum-gauge"><div class="sum-gauge-fill" id="sumGauge"></div></div>
+          <p class="sum-verdict" id="sumVerdict">Configura tu ingreso para ver tu plan.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ SECCIÓN 2: REMESAS ============ -->
+    <section class="section" id="remesas">
+      <div class="section-head">
+        <span class="section-index">02</span>
+        <div>
+          <h2 class="section-title">Enviar dinero a México</h2>
+          <p class="section-desc">Las mejores formas de enviar de EE.UU. a México: mayor tipo de cambio, menores comisiones.</p>
+        </div>
+        <span class="updated-badge" id="remesasUpdated">—</span>
+      </div>
+
+      <div class="remesas-controls card">
+        <label class="field inline">
+          <span>Quiero enviar</span>
+          <div class="amount-input">
+            <span class="amount-cur">$</span>
+            <input type="number" id="remAmount" value="1000" min="1" step="50" />
+            <span class="amount-cur muted">USD</span>
+          </div>
+        </label>
+        <div class="remesas-best" id="remesasBest">
+          <span class="best-label">Mejor opción</span>
+          <span class="best-value" id="remesasBestValue">—</span>
+        </div>
+      </div>
+
+      <div class="remesas-table-wrap">
+        <table class="remesas-table">
+          <thead>
+            <tr>
+              <th>Proveedor</th>
+              <th class="num">Tipo de cambio</th>
+              <th class="num">Comisión</th>
+              <th class="num">Recibe (MXN)</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="remesasBody">
+            <tr><td colspan="5" class="loading">Cargando comparativa…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="disclaimer">⚠ Valores estimados con fuentes públicas. Verifica el tipo de cambio y comisión en la app del proveedor antes de enviar.</p>
+    </section>
+
+    <!-- ============ SECCIÓN 3: INTERÉS COMPUESTO ============ -->
+    <section class="section" id="interes">
+      <div class="section-head">
+        <span class="section-index">03</span>
+        <div>
+          <h2 class="section-title">Interés compuesto</h2>
+          <p class="section-desc">Proyecta cuánto crece tu dinero invirtiendo cada mes, y compáralo con otros activos.</p>
+        </div>
+      </div>
+
+      <div class="interes-layout">
+        <aside class="interes-controls card">
+          <label class="field slider-field">
+            <span>Aporte mensual <b id="valMonthly">$300</b></span>
+            <input type="range" id="inMonthly" min="0" max="3000" step="50" value="300" />
+          </label>
+          <label class="field slider-field">
+            <span>Tasa anual <b id="valRate">8%</b></span>
+            <input type="range" id="inRate" min="1" max="20" step="0.5" value="8" />
+          </label>
+          <label class="field slider-field">
+            <span>Años <b id="valYears">20</b></span>
+            <input type="range" id="inYears" min="1" max="40" step="1" value="20" />
+          </label>
+          <label class="field slider-field">
+            <span>Aporte inicial <b id="valInitial">$0</b></span>
+            <input type="range" id="inInitial" min="0" max="50000" step="500" value="0" />
+          </label>
+
+          <div class="scenario-toggle" role="group" aria-label="Escenario">
+            <button data-scn="pesimista">Pesimista</button>
+            <button data-scn="base" class="active">Base</button>
+            <button data-scn="optimista">Optimista</button>
+          </div>
+
+          <div class="interes-result">
+            <div class="ir-row"><span>Total aportado</span><b id="irContrib">—</b></div>
+            <div class="ir-row"><span>Intereses ganados</span><b id="irInterest" class="accent-em">—</b></div>
+            <div class="ir-divider"></div>
+            <div class="ir-row big"><span>Valor final</span><b id="irFinal">—</b></div>
+            <div class="ir-mxn" id="irFinalMxn">— MXN</div>
+          </div>
+
+          <label class="compare-toggle">
+            <input type="checkbox" id="inCompare" checked />
+            <span>Comparar con otros activos</span>
+          </label>
+        </aside>
+
+        <div class="interes-chart card">
+          <canvas id="interesCanvas"></canvas>
+          <div class="asset-legend" id="assetLegend"></div>
+        </div>
+      </div>
+
+      <div class="region-cards">
+        <article class="region-card">
+          <span class="region-flag">🇺🇸 Carolina del Norte</span>
+          <h4>Dónde crece tu dinero en EE.UU.</h4>
+          <ul>
+            <li><b>Brokerages:</b> Fidelity, Vanguard, Schwab — fondos índice (S&amp;P 500) con comisión casi nula.</li>
+            <li><b>401(k) / Roth IRA:</b> aprovecha el match del empleador y el crecimiento libre de impuestos.</li>
+            <li><b>HYSA:</b> cuentas de ahorro de alto rendimiento (~4-5%) para tu fondo de emergencia.</li>
+            <li><b>Bienes raíces:</b> el mercado de NC (Raleigh, Charlotte) crece de forma sostenida.</li>
+          </ul>
+        </article>
+        <article class="region-card">
+          <span class="region-flag">🇲🇽 Querétaro</span>
+          <h4>Dónde crece tu dinero en México</h4>
+          <ul>
+            <li><b>Cetesdirecto:</b> CETES y BONDDIA del gobierno, sin comisión y desde $100 MXN.</li>
+            <li><b>GBM / Kuspit:</b> casas de bolsa para invertir en acciones y ETFs locales y de EE.UU.</li>
+            <li><b>Bienes raíces:</b> Querétaro es de las zonas con mayor plusvalía y demanda del país.</li>
+            <li><b>Fondos / pagarés:</b> compara siempre la tasa real contra la inflación.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ SECCIÓN 4: MERCADO + FOROS ============ -->
+    <section class="section" id="mercado">
+      <div class="section-head">
+        <span class="section-index">04</span>
+        <div>
+          <h2 class="section-title">Pulso de mercado</h2>
+          <p class="section-desc">Mercados, y lo mejor del día en foros de finanzas de EE.UU. y México.</p>
+        </div>
+        <span class="updated-badge" id="marketUpdated">—</span>
+      </div>
+
+      <div class="market-grid" id="marketGrid">
+        <div class="loading">Cargando mercados…</div>
+      </div>
+
+      <div class="forums-layout">
+        <div class="forum-col">
+          <h3 class="forum-head"><span class="flag">🇺🇸</span> Foros EE.UU.</h3>
+          <div class="forum-list" id="forumUS"><div class="loading">Cargando…</div></div>
+        </div>
+        <div class="forum-col">
+          <h3 class="forum-head"><span class="flag">🇲🇽</span> Foros México</h3>
+          <div class="forum-list" id="forumMX"><div class="loading">Cargando…</div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark"><svg viewBox="0 0 32 32" width="22" height="22"><path d="M11 23V9h10M11 16h7" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></span>
+        <span>Finanzas</span>
+      </div>
+      <p class="footer-note">
+        Datos actualizados a diario por un robot automático. Información orientativa, no es consejo financiero.
+        Última actualización de datos: <b id="footerUpdated">—</b>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Modal gasto puntual -->
+  <div class="modal-backdrop" id="expModal" hidden>
+    <div class="modal card" role="dialog" aria-modal="true" aria-labelledby="expModalTitle">
+      <h3 id="expModalTitle" class="card-title">Gasto del <span id="expModalDate"></span></h3>
+      <div class="exp-list" id="expList"></div>
+      <form class="exp-add" id="expForm">
+        <input type="text" id="expName" placeholder="Concepto (comida, gasolina…)" required />
+        <input type="number" id="expAmount" placeholder="USD" min="0" step="1" required />
+        <button type="submit" class="btn btn-primary sm">Agregar</button>
+      </form>
+      <button class="modal-close" id="expClose" aria-label="Cerrar">×</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="js/remesas.js"></script>
+  <script src="js/interes.js"></script>
+  <script src="js/feeds.js"></script>
+</body>
+</html>
