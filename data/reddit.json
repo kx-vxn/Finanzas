@@ -1,110 +1,130 @@
 {
-  "updated": "2026-05-26",
+  "updated": "2026-05-27",
   "source": "reddit",
   "us": [
     {
       "sub": "personalfinance",
-      "title": "About to divorce with kids. How am I looking?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1tnj9sw/about_to_divorce_with_kids_how_am_i_looking/"
+      "title": "Forgotten 20 year old 401k help.",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1toe1se/forgotten_20_year_old_401k_help/"
     },
     {
       "sub": "investing",
-      "title": "Move money to Vanguard or not?",
-      "url": "https://www.reddit.com/r/investing/comments/1tnq991/move_money_to_vanguard_or_not/"
+      "title": "Micron $MU is a trillion-dollar company now.",
+      "url": "https://www.reddit.com/r/investing/comments/1togsdq/micron_mu_is_a_trilliondollar_company_now/"
     },
     {
       "sub": "Bogleheads",
-      "title": "Should I stop contributing to 401k and IRA",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1tnbczf/should_i_stop_contributing_to_401k_and_ira/"
+      "title": "The Latest Morningstar Report Shows How to Invest in 2026",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1tou4xs/the_latest_morningstar_report_shows_how_to_invest/"
     },
     {
       "sub": "financialindependence",
-      "title": "Daily FI discussion thread - Tuesday, May 26, 2026",
-      "url": "https://www.reddit.com/r/financialindependence/comments/1to074g/daily_fi_discussion_thread_tuesday_may_26_2026/"
+      "title": "Daily FI discussion thread - Wednesday, May 27, 2026",
+      "url": "https://www.reddit.com/r/financialindependence/comments/1toyv6x/daily_fi_discussion_thread_wednesday_may_27_2026/"
     },
     {
       "sub": "stocks",
-      "title": "Semiconductor stocks are basically a black hole right now and everything else is getting left behind",
-      "url": "https://www.reddit.com/r/stocks/comments/1tnjfhl/semiconductor_stocks_are_basically_a_black_hole/"
+      "title": "Micron hits $1 trillion market cap for the first time",
+      "url": "https://www.reddit.com/r/stocks/comments/1todfhu/micron_hits_1_trillion_market_cap_for_the_first/"
     },
     {
       "sub": "personalfinance",
-      "title": "Where to invest $10k as 19 year old (followed by $1000/month until a sum of $60k is added)?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1tnl8uq/where_to_invest_10k_as_19_year_old_followed_by/"
+      "title": "Company didn’t pay bonus",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tohkwn/company_didnt_pay_bonus/"
     },
     {
       "sub": "investing",
-      "title": "Unwinding from a FA disaster",
-      "url": "https://www.reddit.com/r/investing/comments/1tngsf3/unwinding_from_a_fa_disaster/"
+      "title": "Real estate or S&P 500. Honestly, what‘s the better investment for you?",
+      "url": "https://www.reddit.com/r/investing/comments/1tog03h/real_estate_or_sp_500_honestly_whats_the_better/"
     },
     {
       "sub": "Bogleheads",
-      "title": "Where to park a $30k rent fund for the next 12 months?",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1tnxths/where_to_park_a_30k_rent_fund_for_the_next_12/"
+      "title": "Japan’s Stock Market (or why I love owning VT)",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1tom0do/japans_stock_market_or_why_i_love_owning_vt/"
     }
   ],
   "mx": [
     {
-      "sub": "MexicoBursatil",
-      "title": "Amigos, cómo puedo invertir en private equity?",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tnuj30/amigos_cómo_puedo_invertir_en_private_equity/"
+      "sub": "MexicoFinanciero",
+      "title": "¿Donde ahorrarían 300 mil pesos y por qué? ¿Prefirían cetes o udibonos?",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1to9m5i/donde_ahorrarían_300_mil_pesos_y_por_qué/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "GBM, si lees esto, me caes gordo",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tnkfkz/gbm_si_lees_esto_me_caes_gordo/"
+      "title": "Mexico's Credit Rating Downgrade... Would you still invest in Mexico's Govt Bond called CETES, which pays about 7.5%?",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1toft3n/mexicos_credit_rating_downgrade_would_you_still/"
+    },
+    {
+      "sub": "MexicoFinanciero",
+      "title": "Noticias más importantes en finanzas, economía y negocios / Martes 26 de Mayo",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1toky8q/noticias_más_importantes_en_finanzas_economía_y/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "Amigos, vengo del 2027. Las tecnológicas pasaron de moda y las empresas defensivas contra la inflación subieron 70%",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1to5w81/amigos_vengo_del_2027_las_tecnológicas_pasaron_de/"
+      "title": "Invertí €1,000 en un portafolio creado por IA, día #1.",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1toaxyo/invertí_1000_en_un_portafolio_creado_por_ia_día_1/"
+    },
+    {
+      "sub": "MexicoFinanciero",
+      "title": "Empiezo a querer controlar mi dinero ¿Como manejan sus finanzas?",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tofdq8/empiezo_a_querer_controlar_mi_dinero_como_manejan/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "Mexico is quietly becoming a major tech and AI hub. More startups, more innovation, more investment, and a rapidly growing digital economy are changing the country's future.",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tngbdr/mexico_is_quietly_becoming_a_major_tech_and_ai/"
+      "title": "¿Cómo comenzar en GBM?",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tobcka/cómo_comenzar_en_gbm/"
+    },
+    {
+      "sub": "MexicoFinanciero",
+      "title": "QUÉ INDICE ES MEJOR PARA COMENZAR? VTI, VOO O SON INDIFERENTES? Recomendaciones",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1todlhn/qué_indice_es_mejor_para_comenzar_vti_voo_o_son/"
+    },
+    {
+      "sub": "MexicoBursatil",
+      "title": "Día 2 — Portafolio IA con €1,000. Hoy reportan Salesforce y Marvell. ¿Nos afecta?",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1toxj9x/día_2_portafolio_ia_con_1000_hoy_reportan/"
     }
   ],
   "extra": [
     {
+      "sub": "sidehustle",
+      "title": "I spent 30 minutes searching for something relatively simple all over the internet and it doesn't seem to exist, how would one go about making it exist for others to purchase?",
+      "url": "https://www.reddit.com/r/sidehustle/comments/1tol4gb/i_spent_30_minutes_searching_for_something/"
+    },
+    {
+      "sub": "beermoney",
+      "title": "Is there an alternative to google wallet that allows you to turn off pin for your phone temporarily?",
+      "url": "https://www.reddit.com/r/beermoney/comments/1toktjs/is_there_an_alternative_to_google_wallet_that/"
+    },
+    {
       "sub": "passive_income",
-      "title": "I went from making $500 in a single day to losing everything. How a client’s project keyword got me banned.",
-      "url": "https://www.reddit.com/r/passive_income/comments/1tnla8w/i_went_from_making_500_in_a_single_day_to_losing/"
+      "title": "I tried so many things but this is what finally worked!!!",
+      "url": "https://www.reddit.com/r/passive_income/comments/1tonqki/i_tried_so_many_things_but_this_is_what_finally/"
     },
     {
       "sub": "Flipping",
-      "title": "Every single USPS Holiday. Like clockwork.",
-      "url": "https://www.reddit.com/r/Flipping/comments/1tnt3a5/every_single_usps_holiday_like_clockwork/"
+      "title": "Just came out of a coma...",
+      "url": "https://www.reddit.com/r/Flipping/comments/1tp3di1/just_came_out_of_a_coma/"
     },
     {
       "sub": "Entrepreneur",
-      "title": "What are some mental health things you struggle with as an entrepeneur?",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tnicl1/what_are_some_mental_health_things_you_struggle/"
+      "title": "To the startups out there, you need to do more market testing before launch.",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1told4x/to_the_startups_out_there_you_need_to_do_more/"
     },
     {
       "sub": "freelance",
-      "title": "Offered a recurring service contract with 0% upfront and 2-stage approval — is this payment structure normal?",
-      "url": "https://www.reddit.com/r/freelance/comments/1tnb1ws/offered_a_recurring_service_contract_with_0/"
+      "title": "Nightmare Client From Hell - Please Help",
+      "url": "https://www.reddit.com/r/freelance/comments/1to9m9h/nightmare_client_from_hell_please_help/"
     },
     {
       "sub": "EtsySellers",
-      "title": "Feeling defeated because of AI as a handmade creative...",
-      "url": "https://www.reddit.com/r/EtsySellers/comments/1tngu0m/feeling_defeated_because_of_ai_as_a_handmade/"
+      "title": "First item sold!",
+      "url": "https://www.reddit.com/r/EtsySellers/comments/1tonh61/first_item_sold/"
     },
     {
-      "sub": "passive_income",
-      "title": "I'm so glad I chose digital templates over trying to become a content creator for \"passive\" income.",
-      "url": "https://www.reddit.com/r/passive_income/comments/1tnhmtz/im_so_glad_i_chose_digital_templates_over_trying/"
-    },
-    {
-      "sub": "Flipping",
-      "title": "What to do with an enormous death pile when it comes to taxes?",
-      "url": "https://www.reddit.com/r/Flipping/comments/1tngyt1/what_to_do_with_an_enormous_death_pile_when_it/"
-    },
-    {
-      "sub": "Entrepreneur",
-      "title": "The higher you go in life, the less anyone asks if you're okay.",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1to4fzu/the_higher_you_go_in_life_the_less_anyone_asks_if/"
+      "sub": "sidehustle",
+      "title": "Sidehustle slowchat: What were your wins and fails this week?",
+      "url": "https://www.reddit.com/r/sidehustle/comments/1togmt3/sidehustle_slowchat_what_were_your_wins_and_fails/"
     }
   ]
 }
