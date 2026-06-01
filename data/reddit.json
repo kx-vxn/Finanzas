@@ -1,100 +1,130 @@
 {
-  "updated": "2026-05-31",
+  "updated": "2026-06-01",
   "source": "reddit",
   "us": [
     {
       "sub": "personalfinance",
-      "title": "Is $2400 too much for rent on a take home of $5200 a month?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1ts4p7q/is_2400_too_much_for_rent_on_a_take_home_of_5200/"
+      "title": "Hospitalized, lost everything while there",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1ttkvlg/hospitalized_lost_everything_while_there/"
     },
     {
       "sub": "investing",
-      "title": "TIL Warren Buffett made his first Billion at the age of 56!",
-      "url": "https://www.reddit.com/r/investing/comments/1ts8utf/til_warren_buffett_made_his_first_billion_at_the/"
+      "title": "The FTSE index has changed its rules to accelerate forced buying of SpaceX shares, which means that VWRA investors are now part of the exit liquidity.",
+      "url": "https://www.reddit.com/r/investing/comments/1ttevrs/the_ftse_index_has_changed_its_rules_to/"
     },
     {
       "sub": "Bogleheads",
-      "title": "Recommended Read about Taxes in Retirement",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1ts0xk5/recommended_read_about_taxes_in_retirement/"
+      "title": "10 years out from retirement with 1.5 mil in one stock",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1tt4l8e/10_years_out_from_retirement_with_15_mil_in_one/"
     },
     {
       "sub": "financialindependence",
-      "title": "[Trophy Earned] Finally hit $1M net worth",
-      "url": "https://www.reddit.com/r/financialindependence/comments/1tsj3px/trophy_earned_finally_hit_1m_net_worth/"
+      "title": "[8 year update] 38/m/single. $2.3 million. Submitted my resignation letter today. Thank you guys for the encouragement all these years.",
+      "url": "https://www.reddit.com/r/financialindependence/comments/1tt9e5r/8_year_update_38msingle_23_million_submitted_my/"
     },
     {
       "sub": "stocks",
-      "title": "SpaceX’s $80 billion IPO has a catch: 78% of the money is already spoken for",
-      "url": "https://www.reddit.com/r/stocks/comments/1trzt9l/spacexs_80_billion_ipo_has_a_catch_78_of_the/"
+      "title": "Space X and the “Enshittification” of Passive Investing",
+      "url": "https://www.reddit.com/r/stocks/comments/1tt0pc1/space_x_and_the_enshittification_of_passive/"
     },
     {
       "sub": "personalfinance",
-      "title": "I made a massive mistake. 15.79% interest on a 2015 Corolla at 18/19. Need advice on how to fix this.",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1tsn61y/i_made_a_massive_mistake_1579_interest_on_a_2015/"
+      "title": "Help: grocery costs are KILLING my finances??",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tt0p07/help_grocery_costs_are_killing_my_finances/"
     },
     {
       "sub": "investing",
-      "title": "What happens if growth stops?",
-      "url": "https://www.reddit.com/r/investing/comments/1tsjj54/what_happens_if_growth_stops/"
+      "title": "SpaceX IPO and Elon saying ‘Saving for retirement will be irrelevant in the future’. Connected?",
+      "url": "https://www.reddit.com/r/investing/comments/1tt6647/spacex_ipo_and_elon_saying_saving_for_retirement/"
     },
     {
       "sub": "Bogleheads",
-      "title": "ETF choice for newer investor",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1tsami4/etf_choice_for_newer_investor/"
+      "title": "What to do with retirement accounts when the time comes?",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1tt4rds/what_to_do_with_retirement_accounts_when_the_time/"
     }
   ],
   "mx": [
     {
-      "sub": "MexicoBursatil",
-      "title": "IPO SpaceX 12 de Junio",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tsbvrv/ipo_spacex_12_de_junio/"
+      "sub": "MexicoFinanciero",
+      "title": "Cambio sustancial en la comunidad.",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1ttr210/cambio_sustancial_en_la_comunidad/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "Swissquote",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1ts5wce/swissquote/"
+      "title": "Bolsa Mexicana Valores",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tt42zq/bolsa_mexicana_valores/"
+    },
+    {
+      "sub": "MexicoFinanciero",
+      "title": "Hotel y los impuestos en la facturación.",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tt94ev/hotel_y_los_impuestos_en_la_facturación/"
+    },
+    {
+      "sub": "MexicoBursatil",
+      "title": "Semana 2 arranca con +11,38% — €1,000 ya son €1,112 en solo unos pocos días.",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1ttxz7r/semana_2_arranca_con_1138_1000_ya_son_1112_en/"
+    },
+    {
+      "sub": "MexicoFinanciero",
+      "title": "declaracion anual de ingresos y donacion",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tt96ks/declaracion_anual_de_ingresos_y_donacion/"
+    },
+    {
+      "sub": "MexicoBursatil",
+      "title": "All in Dell??",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tt2qti/all_in_dell/"
+    },
+    {
+      "sub": "MexicoFinanciero",
+      "title": "Alguna referencia de Nexu (financiera de autos)?",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tt5rjl/alguna_referencia_de_nexu_financiera_de_autos/"
+    },
+    {
+      "sub": "MexicoBursatil",
+      "title": "¿Cuál ha sido su mayor ganancia utilizando polymarket? ¿y cuál es el mejor consejo para usarlo?",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1ttunss/cuál_ha_sido_su_mayor_ganancia_utilizando/"
     }
   ],
   "extra": [
     {
       "sub": "beermoney",
-      "title": "Best platform for Ai training jobs for scientists",
-      "url": "https://www.reddit.com/r/beermoney/comments/1ts3fw8/best_platform_for_ai_training_jobs_for_scientists/"
+      "title": "Who Paid You For/In May 2026?",
+      "url": "https://www.reddit.com/r/beermoney/comments/1tt0v8o/who_paid_you_forin_may_2026/"
     },
     {
       "sub": "passive_income",
-      "title": "My YouTube channel has 488,000 subscribers!",
-      "url": "https://www.reddit.com/r/passive_income/comments/1ts3wlk/my_youtube_channel_has_488000_subscribers/"
+      "title": "$1600+ earnings in 2 months of Facebook monetization",
+      "url": "https://www.reddit.com/r/passive_income/comments/1tthmhs/1600_earnings_in_2_months_of_facebook_monetization/"
     },
     {
       "sub": "Flipping",
-      "title": "Ethical Question - Do you return a forgotten stash??",
-      "url": "https://www.reddit.com/r/Flipping/comments/1tsb0zi/ethical_question_do_you_return_a_forgotten_stash/"
+      "title": "How I accidentally made thousands selling SKYLANDERS",
+      "url": "https://www.reddit.com/r/Flipping/comments/1ttl2a7/how_i_accidentally_made_thousands_selling/"
     },
     {
       "sub": "Entrepreneur",
-      "title": "What's something entrepreneurs are told to do that actually hurt your business?",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1ts9mmp/whats_something_entrepreneurs_are_told_to_do_that/"
+      "title": "What is the most underrated source of organic traffic that is genius?",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tto0va/what_is_the_most_underrated_source_of_organic/"
     },
     {
       "sub": "freelance",
-      "title": "The Rise of the Middlemen",
-      "url": "https://www.reddit.com/r/freelance/comments/1tsh1y9/the_rise_of_the_middlemen/"
+      "title": "16 months after throwing my hat in the ring, I received a Mercor expert offer letter",
+      "url": "https://www.reddit.com/r/freelance/comments/1tt4rcg/16_months_after_throwing_my_hat_in_the_ring_i/"
     },
     {
       "sub": "EtsySellers",
-      "title": "100 Sales!!",
-      "url": "https://www.reddit.com/r/EtsySellers/comments/1tsauil/100_sales/"
+      "title": "100 sales!!?",
+      "url": "https://www.reddit.com/r/EtsySellers/comments/1tt4hr2/100_sales/"
     },
     {
       "sub": "WorkOnline",
-      "title": "Best AI training jobs platform for Scientists",
-      "url": "https://www.reddit.com/r/WorkOnline/comments/1ts3eoj/best_ai_training_jobs_platform_for_scientists/"
+      "title": "Telus Job. ID verification. Need help!",
+      "url": "https://www.reddit.com/r/WorkOnline/comments/1ttkggw/telus_job_id_verification_need_help/"
     },
     {
-      "sub": "beermoney",
-      "title": "Your LinkedIn & Corporate can earn you side bucks too!",
-      "url": "https://www.reddit.com/r/beermoney/comments/1tspvj7/your_linkedin_corporate_can_earn_you_side_bucks/"
+      "sub": "passive_income",
+      "title": "How I made $512 in My First Month Selling Digital Products",
+      "url": "https://www.reddit.com/r/passive_income/comments/1ttnipd/how_i_made_512_in_my_first_month_selling_digital/"
     }
   ]
 }
