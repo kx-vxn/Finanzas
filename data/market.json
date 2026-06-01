@@ -4,32 +4,32 @@
   "markets": [
     {
       "name": "S&P 500",
-      "price": 7586.3,
-      "changePct": 0.24,
+      "price": 7612,
+      "changePct": 0.58,
       "currency": "USD"
     },
     {
       "name": "NASDAQ",
-      "price": 27039.44,
-      "changePct": 0.38,
+      "price": 27160.68,
+      "changePct": 0.83,
       "currency": "USD"
     },
     {
       "name": "Oro (oz)",
-      "price": 4469,
-      "changePct": -1.19,
+      "price": 4494.46,
+      "changePct": -0.63,
       "currency": "USD"
     },
     {
       "name": "Bitcoin",
-      "price": 71252,
-      "changePct": -2.86,
+      "price": 71572,
+      "changePct": -2.76,
       "currency": "USD"
     },
     {
       "name": "Ethereum",
-      "price": 1969.72,
-      "changePct": -1.37,
+      "price": 1987.91,
+      "changePct": -0.79,
       "currency": "USD"
     }
   ]

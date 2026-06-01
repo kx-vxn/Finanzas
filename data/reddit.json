@@ -24,13 +24,13 @@
     },
     {
       "sub": "stocks",
-      "title": "Space X and the “Enshittification” of Passive Investing",
-      "url": "https://www.reddit.com/r/stocks/comments/1tt0pc1/space_x_and_the_enshittification_of_passive/"
+      "title": "$NOW is up 10% overnight. Is SaaS the next boom that won't ever stop?",
+      "url": "https://www.reddit.com/r/stocks/comments/1ttccux/now_is_up_10_overnight_is_saas_the_next_boom_that/"
     },
     {
       "sub": "personalfinance",
-      "title": "Help: grocery costs are KILLING my finances??",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1tt0p07/help_grocery_costs_are_killing_my_finances/"
+      "title": "Does it ever feel like \"enough\" money?",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tttq5j/does_it_ever_feel_like_enough_money/"
     },
     {
       "sub": "investing",
@@ -66,8 +66,8 @@
     },
     {
       "sub": "MexicoFinanciero",
-      "title": "declaracion anual de ingresos y donacion",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tt96ks/declaracion_anual_de_ingresos_y_donacion/"
+      "title": "Dilema: si Infonavit no reduce mensualidad al dar un gran abono (casi la mitad) conviene cofinavit?",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1ttfz8y/dilema_si_infonavit_no_reduce_mensualidad_al_dar/"
     },
     {
       "sub": "MexicoBursatil",
@@ -76,21 +76,16 @@
     },
     {
       "sub": "MexicoFinanciero",
-      "title": "Alguna referencia de Nexu (financiera de autos)?",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tt5rjl/alguna_referencia_de_nexu_financiera_de_autos/"
+      "title": "declaracion anual de ingresos y donacion",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tt96ks/declaracion_anual_de_ingresos_y_donacion/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "¿Cuál ha sido su mayor ganancia utilizando polymarket? ¿y cuál es el mejor consejo para usarlo?",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1ttunss/cuál_ha_sido_su_mayor_ganancia_utilizando/"
+      "title": "SPCE 🚀🌝",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1ttza4e/spce/"
     }
   ],
   "extra": [
-    {
-      "sub": "beermoney",
-      "title": "Who Paid You For/In May 2026?",
-      "url": "https://www.reddit.com/r/beermoney/comments/1tt0v8o/who_paid_you_forin_may_2026/"
-    },
     {
       "sub": "passive_income",
       "title": "$1600+ earnings in 2 months of Facebook monetization",
@@ -125,6 +120,11 @@
       "sub": "passive_income",
       "title": "How I made $512 in My First Month Selling Digital Products",
       "url": "https://www.reddit.com/r/passive_income/comments/1ttnipd/how_i_made_512_in_my_first_month_selling_digital/"
+    },
+    {
+      "sub": "Flipping",
+      "title": "Question for those who sell magazines",
+      "url": "https://www.reddit.com/r/Flipping/comments/1tt60lo/question_for_those_who_sell_magazines/"
     }
   ]
 }
