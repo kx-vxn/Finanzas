@@ -124,8 +124,80 @@ async function reddit() {
   });
 }
 
+/* ---------- 5. Tickers ligados a políticos (Yahoo Finance, sin clave) ---------- */
+const POLITICOS = [
+  { ticker: 'DJT',   name: 'Trump Media & Technology', tag: 'Empresa fundada por Donald Trump' },
+  { ticker: 'NVDA',  name: 'NVIDIA',                   tag: 'Compras reportadas por Nancy Pelosi (calls de NVDA)' },
+  { ticker: 'GOOGL', name: 'Alphabet (Google)',        tag: 'Paul Pelosi y otros congresistas reportados' },
+  { ticker: 'AAPL',  name: 'Apple',                    tag: 'Operada por varios congresistas (Pelosi, Tuberville)' },
+  { ticker: 'TSLA',  name: 'Tesla',                    tag: 'Tommy Tuberville y otros senadores la han operado' },
+  { ticker: 'PLTR',  name: 'Palantir',                 tag: 'Contratos con el gobierno; operada por varios' },
+  { ticker: 'MSFT',  name: 'Microsoft',                tag: 'Reportada por Pelosi y otros senadores' },
+  { ticker: 'AMZN',  name: 'Amazon',                   tag: 'Operada por varios congresistas' },
+];
+const CHROME_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
+
+async function yahooSeries(ticker) {
+  const j = await get(`https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=1y&interval=1d`, { headers: { 'User-Agent': CHROME_UA } });
+  const r = j?.chart?.result?.[0];
+  if (!r) throw new Error(`yahoo ${ticker} vacío`);
+  const closes = (r.indicators?.quote?.[0]?.close || []).map((v, i) => ({ v, t: r.timestamp[i] })).filter((x) => x.v != null);
+  const cur = r.meta?.regularMarketPrice ?? closes[closes.length - 1]?.v;
+  if (!cur || closes.length < 30) throw new Error(`yahoo ${ticker} datos insuficientes`);
+  const c1y = closes[0].v;
+  const cYesterday = closes[closes.length - 2].v;
+  const c1m = closes[Math.max(0, closes.length - 22)].v;
+
+  const ret1y = (cur / c1y - 1) * 100;
+  const ret1m = (cur / c1m - 1) * 100;
+  const change1d = (cur / cYesterday - 1) * 100;
+  const val1k1m = 1000 * (cur / c1m);
+  const val1k1y = 1000 * (cur / c1y);
+
+  // Volatilidad anualizada (desviación estándar de log-retornos diarios * √252)
+  const rets = [];
+  for (let i = 1; i < closes.length; i++) rets.push(Math.log(closes[i].v / closes[i - 1].v));
+  const mean = rets.reduce((a, b) => a + b, 0) / rets.length;
+  const variance = rets.reduce((a, b) => a + (b - mean) ** 2, 0) / rets.length;
+  const annualVol = Math.sqrt(variance * 252) * 100;
+
+  // Rango estimado a 3 meses (±1σ, log-normal)
+  const s3m = (annualVol / 100) * Math.sqrt(0.25);
+  const projLow = cur * Math.exp(-s3m);
+  const projHigh = cur * Math.exp(+s3m);
+
+  // Sparkline ~52 puntos
+  const step = Math.max(1, Math.floor(closes.length / 52));
+  const sparkline = [];
+  for (let i = 0; i < closes.length; i += step) sparkline.push(+closes[i].v.toFixed(2));
+  if (sparkline[sparkline.length - 1] !== +cur.toFixed(2)) sparkline.push(+cur.toFixed(2));
+
+  return {
+    price: +cur.toFixed(2),
+    change1d: +change1d.toFixed(2),
+    ret1m: +ret1m.toFixed(1),
+    ret1y: +ret1y.toFixed(1),
+    val1k1m: Math.round(val1k1m),
+    val1k1y: Math.round(val1k1y),
+    annualVol: +annualVol.toFixed(0),
+    projLow: +projLow.toFixed(2),
+    projHigh: +projHigh.toFixed(2),
+    sparkline,
+  };
+}
+
+async function politicos() {
+  const out = [];
+  for (const p of POLITICOS) {
+    try { out.push({ ...p, ...(await yahooSeries(p.ticker)) }); }
+    catch (e) { console.warn('yahoo', p.ticker, e.message); }
+  }
+  if (!out.length) { const prev = await readPrev('politicos.json'); if (prev) return; throw new Error('sin datos de tickers'); }
+  await writeJSON('politicos.json', { updated: TODAY, source: 'yahoo+curated', tickers: out });
+}
+
 /* ---------- main ---------- */
 const usdMxn = await rates();
-const results = await Promise.allSettled([remesas(usdMxn), market(), reddit()]);
+const results = await Promise.allSettled([remesas(usdMxn), market(), reddit(), politicos()]);
 results.forEach((r, i) => { if (r.status === 'rejected') console.warn('bloque', i, 'falló:', r.reason?.message); });
 console.log('Listo —', TODAY);

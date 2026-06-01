@@ -27,6 +27,7 @@
       <a href="#retiro">Retiro</a>
       <a href="#remesas">Remesas</a>
       <a href="#interes">Interés</a>
+      <a href="#politicos">Políticos</a>
       <a href="#mercado">Mercado</a>
     </nav>
     <div class="fx-chip" id="navFx" title="Tipo de cambio del día">
@@ -318,10 +319,47 @@
       </div>
     </section>
 
-    <!-- ============ SECCIÓN 5: MERCADO + FOROS ============ -->
-    <section class="section" id="mercado">
+    <!-- ============ SECCIÓN 5: POLÍTICOS ============ -->
+    <section class="section" id="politicos">
       <div class="section-head">
         <span class="section-index">05</span>
+        <div>
+          <h2 class="section-title">Stocks de políticos</h2>
+          <p class="section-desc">Acciones ligadas a Trump y a operaciones del Congreso de EE.UU. — cuánto habrías ganado y qué se espera por <em>volatilidad histórica</em>.</p>
+        </div>
+        <span class="updated-badge" id="politicosUpdated">—</span>
+      </div>
+
+      <div class="howto-bar card">
+        <div class="howto-row">
+          <span class="howto-label">Comprar en EE.UU.</span>
+          <div class="howto-chips">
+            <a class="chip" href="https://www.fidelity.com" target="_blank" rel="noopener">Fidelity</a>
+            <a class="chip" href="https://www.schwab.com" target="_blank" rel="noopener">Schwab</a>
+            <a class="chip" href="https://robinhood.com" target="_blank" rel="noopener">Robinhood</a>
+            <a class="chip" href="https://investor.vanguard.com" target="_blank" rel="noopener">Vanguard</a>
+          </div>
+        </div>
+        <div class="howto-row">
+          <span class="howto-label">Comprar desde México <small>(vía SIC)</small></span>
+          <div class="howto-chips">
+            <a class="chip" href="https://www.gbm.com" target="_blank" rel="noopener">GBM+</a>
+            <a class="chip" href="https://www.kuspit.com" target="_blank" rel="noopener">Kuspit</a>
+            <a class="chip" href="https://www.bursanet.mx" target="_blank" rel="noopener">Bursanet</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="politicos-grid" id="politicosGrid">
+        <div class="loading">Cargando tickers…</div>
+      </div>
+      <p class="disclaimer">⚠ Lista curada con fines educativos. Las relaciones políticas son referencias públicas conocidas. Los rangos esperados son <b>bandas estadísticas</b> (±1σ a 3 meses, derivadas de la volatilidad histórica de 1 año) — <b>no</b> predicen el precio futuro. Esto no es consejo de inversión.</p>
+    </section>
+
+    <!-- ============ SECCIÓN 6: MERCADO + FOROS ============ -->
+    <section class="section" id="mercado">
+      <div class="section-head">
+        <span class="section-index">06</span>
         <div>
           <h2 class="section-title">Pulso de mercado</h2>
           <p class="section-desc">Mercados, y lo mejor del día en foros de finanzas de EE.UU. y México.</p>
@@ -384,6 +422,7 @@
   <script src="js/retiro.js"></script>
   <script src="js/remesas.js"></script>
   <script src="js/interes.js"></script>
+  <script src="js/politicos.js"></script>
   <script src="js/feeds.js"></script>
 </body>
 </html>
