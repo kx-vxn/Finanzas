@@ -1,63 +1,53 @@
 {
-  "updated": "2026-06-01",
+  "updated": "2026-06-02",
   "source": "reddit",
   "us": [
     {
       "sub": "personalfinance",
-      "title": "Hospitalized, lost everything while there",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1ttkvlg/hospitalized_lost_everything_while_there/"
+      "title": "My Mom opened up a credit card under my name and I need help",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tucjef/my_mom_opened_up_a_credit_card_under_my_name_and/"
     },
     {
       "sub": "investing",
-      "title": "The FTSE index has changed its rules to accelerate forced buying of SpaceX shares, which means that VWRA investors are now part of the exit liquidity.",
-      "url": "https://www.reddit.com/r/investing/comments/1ttevrs/the_ftse_index_has_changed_its_rules_to/"
+      "title": "Help me understand \"Elon and SpaceX are going to rob 401k\"",
+      "url": "https://www.reddit.com/r/investing/comments/1tu9wba/help_me_understand_elon_and_spacex_are_going_to/"
     },
     {
       "sub": "Bogleheads",
-      "title": "10 years out from retirement with 1.5 mil in one stock",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1tt4l8e/10_years_out_from_retirement_with_15_mil_in_one/"
+      "title": "9.5 years of net worth tracking",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1tu1jft/95_years_of_net_worth_tracking/"
     },
     {
       "sub": "financialindependence",
-      "title": "[8 year update] 38/m/single. $2.3 million. Submitted my resignation letter today. Thank you guys for the encouragement all these years.",
-      "url": "https://www.reddit.com/r/financialindependence/comments/1tt9e5r/8_year_update_38msingle_23_million_submitted_my/"
+      "title": "Anyone else find themselves caring less about promotions as they get closer to FI?",
+      "url": "https://www.reddit.com/r/financialindependence/comments/1ttwghr/anyone_else_find_themselves_caring_less_about/"
     },
     {
       "sub": "stocks",
-      "title": "$NOW is up 10% overnight. Is SaaS the next boom that won't ever stop?",
-      "url": "https://www.reddit.com/r/stocks/comments/1ttccux/now_is_up_10_overnight_is_saas_the_next_boom_that/"
+      "title": "Alphabet Inc. (NASDAQ: GOOG, GOOGL) announced plans to raise $80 billion through equity offerings.",
+      "url": "https://www.reddit.com/r/stocks/comments/1tu5v0n/alphabet_inc_nasdaq_goog_googl_announced_plans_to/"
     },
     {
       "sub": "personalfinance",
-      "title": "Does it ever feel like \"enough\" money?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1tttq5j/does_it_ever_feel_like_enough_money/"
+      "title": "Just bought and sold stock for the first time and made 11k profit. When do I pay the taxes on it?",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1ttvfww/just_bought_and_sold_stock_for_the_first_time_and/"
     },
     {
       "sub": "investing",
-      "title": "SpaceX IPO and Elon saying ‘Saving for retirement will be irrelevant in the future’. Connected?",
-      "url": "https://www.reddit.com/r/investing/comments/1tt6647/spacex_ipo_and_elon_saying_saving_for_retirement/"
+      "title": "How many people do you think actually made generational wealth from this run?",
+      "url": "https://www.reddit.com/r/investing/comments/1tuafux/how_many_people_do_you_think_actually_made/"
     },
     {
       "sub": "Bogleheads",
-      "title": "What to do with retirement accounts when the time comes?",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1tt4rds/what_to_do_with_retirement_accounts_when_the_time/"
+      "title": "Worried about the SpaceX IPO? It might be less than 1% of most indexes.",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1tueoga/worried_about_the_spacex_ipo_it_might_be_less/"
     }
   ],
   "mx": [
     {
       "sub": "MexicoFinanciero",
-      "title": "Cambio sustancial en la comunidad.",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1ttr210/cambio_sustancial_en_la_comunidad/"
-    },
-    {
-      "sub": "MexicoBursatil",
-      "title": "Bolsa Mexicana Valores",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tt42zq/bolsa_mexicana_valores/"
-    },
-    {
-      "sub": "MexicoFinanciero",
-      "title": "Hotel y los impuestos en la facturación.",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tt94ev/hotel_y_los_impuestos_en_la_facturación/"
+      "title": "¿en qué momento dejaron de solo ahorrar y empezaron a pensar en hacer crecer su dinero?",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tuho0i/en_qué_momento_dejaron_de_solo_ahorrar_y/"
     },
     {
       "sub": "MexicoBursatil",
@@ -66,65 +56,75 @@
     },
     {
       "sub": "MexicoFinanciero",
-      "title": "Dilema: si Infonavit no reduce mensualidad al dar un gran abono (casi la mitad) conviene cofinavit?",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1ttfz8y/dilema_si_infonavit_no_reduce_mensualidad_al_dar/"
-    },
-    {
-      "sub": "MexicoBursatil",
-      "title": "All in Dell??",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tt2qti/all_in_dell/"
-    },
-    {
-      "sub": "MexicoFinanciero",
-      "title": "declaracion anual de ingresos y donacion",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tt96ks/declaracion_anual_de_ingresos_y_donacion/"
+      "title": "Cómo organizan su presupuesto del súper con esta inflación?",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tufg3o/cómo_organizan_su_presupuesto_del_súper_con_esta/"
     },
     {
       "sub": "MexicoBursatil",
       "title": "SPCE 🚀🌝",
       "url": "https://www.reddit.com/r/MexicoBursatil/comments/1ttza4e/spce/"
+    },
+    {
+      "sub": "MexicoFinanciero",
+      "title": "En qué consiste una “dacion” al banco por una hipoteca?? Es conveniente?",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tu5mz8/en_qué_consiste_una_dacion_al_banco_por_una/"
+    },
+    {
+      "sub": "MexicoBursatil",
+      "title": "Pregunta tonta pero de alguien con corazón cristiano",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tu2b82/pregunta_tonta_pero_de_alguien_con_corazón/"
+    },
+    {
+      "sub": "MexicoFinanciero",
+      "title": "Ayuda con RESICO + Sueldos y Salarios + inversiones en bolsa/cripto",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tu5l9p/ayuda_con_resico_sueldos_y_salarios_inversiones/"
+    },
+    {
+      "sub": "MexicoBursatil",
+      "title": "Noticias más importantes en finanzas, economía y negocios / Lunes 1 de Junio",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tu9odx/noticias_más_importantes_en_finanzas_economía_y/"
     }
   ],
   "extra": [
     {
+      "sub": "sidehustle",
+      "title": "AI Training side gig",
+      "url": "https://www.reddit.com/r/sidehustle/comments/1tu0wmz/ai_training_side_gig/"
+    },
+    {
+      "sub": "beermoney",
+      "title": "Webtest Club | Anyone encouter this error?",
+      "url": "https://www.reddit.com/r/beermoney/comments/1tu7h0q/webtest_club_anyone_encouter_this_error/"
+    },
+    {
       "sub": "passive_income",
-      "title": "$1600+ earnings in 2 months of Facebook monetization",
-      "url": "https://www.reddit.com/r/passive_income/comments/1tthmhs/1600_earnings_in_2_months_of_facebook_monetization/"
+      "title": "46F Looking for Legit Work-From-Home Side Income Ideas",
+      "url": "https://www.reddit.com/r/passive_income/comments/1tu3muw/46f_looking_for_legit_workfromhome_side_income/"
     },
     {
       "sub": "Flipping",
-      "title": "How I accidentally made thousands selling SKYLANDERS",
-      "url": "https://www.reddit.com/r/Flipping/comments/1ttl2a7/how_i_accidentally_made_thousands_selling/"
+      "title": "Found in a storage unit won at auction",
+      "url": "https://www.reddit.com/r/Flipping/comments/1tuqfi9/found_in_a_storage_unit_won_at_auction/"
     },
     {
       "sub": "Entrepreneur",
-      "title": "What is the most underrated source of organic traffic that is genius?",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tto0va/what_is_the_most_underrated_source_of_organic/"
-    },
-    {
-      "sub": "freelance",
-      "title": "16 months after throwing my hat in the ring, I received a Mercor expert offer letter",
-      "url": "https://www.reddit.com/r/freelance/comments/1tt4rcg/16_months_after_throwing_my_hat_in_the_ring_i/"
+      "title": "Before you quit your job to start a business, answer these 3 questions",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tucfda/before_you_quit_your_job_to_start_a_business/"
     },
     {
       "sub": "EtsySellers",
-      "title": "100 sales!!?",
-      "url": "https://www.reddit.com/r/EtsySellers/comments/1tt4hr2/100_sales/"
+      "title": "A Wild Etsy Customer Appeared! (First Non-Friends/Family Sale!)",
+      "url": "https://www.reddit.com/r/EtsySellers/comments/1tu2ubb/a_wild_etsy_customer_appeared_first/"
     },
     {
       "sub": "WorkOnline",
-      "title": "Telus Job. ID verification. Need help!",
-      "url": "https://www.reddit.com/r/WorkOnline/comments/1ttkggw/telus_job_id_verification_need_help/"
+      "title": "If you were a teenager in Africa, how would you build income without relying on freelancing websites?",
+      "url": "https://www.reddit.com/r/WorkOnline/comments/1tubffk/if_you_were_a_teenager_in_africa_how_would_you/"
     },
     {
-      "sub": "passive_income",
-      "title": "How I made $512 in My First Month Selling Digital Products",
-      "url": "https://www.reddit.com/r/passive_income/comments/1ttnipd/how_i_made_512_in_my_first_month_selling_digital/"
-    },
-    {
-      "sub": "Flipping",
-      "title": "Question for those who sell magazines",
-      "url": "https://www.reddit.com/r/Flipping/comments/1tt60lo/question_for_those_who_sell_magazines/"
+      "sub": "sidehustle",
+      "title": "Lots of free time what can I do?",
+      "url": "https://www.reddit.com/r/sidehustle/comments/1tuf6b8/lots_of_free_time_what_can_i_do/"
     }
   ]
 }
