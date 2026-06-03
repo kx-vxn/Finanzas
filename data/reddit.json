@@ -1,130 +1,110 @@
 {
-  "updated": "2026-06-02",
+  "updated": "2026-06-03",
   "source": "reddit",
   "us": [
     {
       "sub": "personalfinance",
-      "title": "My Mom opened up a credit card under my name and I need help",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1tucjef/my_mom_opened_up_a_credit_card_under_my_name_and/"
+      "title": "I’ve had two homeowner’s insurance claims (totaling $~20k) in the past year. Should I pre-emptively shop around for a new policy before my carrier drops me?",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tv1h6g/ive_had_two_homeowners_insurance_claims_totaling/"
     },
     {
       "sub": "investing",
-      "title": "Help me understand \"Elon and SpaceX are going to rob 401k\"",
-      "url": "https://www.reddit.com/r/investing/comments/1tu9wba/help_me_understand_elon_and_spacex_are_going_to/"
+      "title": "SpaceX valued at just $780 billion by Morningstar, less than half its IPO target",
+      "url": "https://www.reddit.com/r/investing/comments/1tuzunv/spacex_valued_at_just_780_billion_by_morningstar/"
     },
     {
       "sub": "Bogleheads",
-      "title": "9.5 years of net worth tracking",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1tu1jft/95_years_of_net_worth_tracking/"
+      "title": "I did the math on how much a 0.64% expense ratio difference actually costs over 30 years, and the result was more than expected.",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1tvdwyj/i_did_the_math_on_how_much_a_064_expense_ratio/"
     },
     {
       "sub": "financialindependence",
-      "title": "Anyone else find themselves caring less about promotions as they get closer to FI?",
-      "url": "https://www.reddit.com/r/financialindependence/comments/1ttwghr/anyone_else_find_themselves_caring_less_about/"
+      "title": "Daily FI discussion thread - Wednesday, June 03, 2026",
+      "url": "https://www.reddit.com/r/financialindependence/comments/1tvilxn/daily_fi_discussion_thread_wednesday_june_03_2026/"
     },
     {
       "sub": "stocks",
-      "title": "Alphabet Inc. (NASDAQ: GOOG, GOOGL) announced plans to raise $80 billion through equity offerings.",
-      "url": "https://www.reddit.com/r/stocks/comments/1tu5v0n/alphabet_inc_nasdaq_goog_googl_announced_plans_to/"
+      "title": "SpaceX valued at just $780 billion by Morningstar, less than half its IPO target",
+      "url": "https://www.reddit.com/r/stocks/comments/1tv5ykp/spacex_valued_at_just_780_billion_by_morningstar/"
     },
     {
       "sub": "personalfinance",
-      "title": "Just bought and sold stock for the first time and made 11k profit. When do I pay the taxes on it?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1ttvfww/just_bought_and_sold_stock_for_the_first_time_and/"
+      "title": "Receiving A 70K Relocation Package With Caveats",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tv0636/receiving_a_70k_relocation_package_with_caveats/"
     },
     {
       "sub": "investing",
-      "title": "How many people do you think actually made generational wealth from this run?",
-      "url": "https://www.reddit.com/r/investing/comments/1tuafux/how_many_people_do_you_think_actually_made/"
+      "title": "Bitcoin Dips Below $66,000 Amid AI Rally: Why Some Analysts Eye $50,000 Next",
+      "url": "https://www.reddit.com/r/investing/comments/1tvl71b/bitcoin_dips_below_66000_amid_ai_rally_why_some/"
     },
     {
       "sub": "Bogleheads",
-      "title": "Worried about the SpaceX IPO? It might be less than 1% of most indexes.",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1tueoga/worried_about_the_spacex_ipo_it_might_be_less/"
+      "title": "Currently have 100% stocks. Do I really need a more balance portfolio for retirement if I expect to get a pension?",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1tv9kxj/currently_have_100_stocks_do_i_really_need_a_more/"
     }
   ],
   "mx": [
     {
-      "sub": "MexicoFinanciero",
-      "title": "¿en qué momento dejaron de solo ahorrar y empezaron a pensar en hacer crecer su dinero?",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tuho0i/en_qué_momento_dejaron_de_solo_ahorrar_y/"
+      "sub": "MexicoBursatil",
+      "title": "Día 6 — Primera caída real del portafolio de IA. NOW -7,23% duele cuando pesa el 13% 🔻",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tuz683/día_6_primera_caída_real_del_portafolio_de_ia_now/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "Semana 2 arranca con +11,38% — €1,000 ya son €1,112 en solo unos pocos días.",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1ttxz7r/semana_2_arranca_con_1138_1000_ya_son_1112_en/"
-    },
-    {
-      "sub": "MexicoFinanciero",
-      "title": "Cómo organizan su presupuesto del súper con esta inflación?",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tufg3o/cómo_organizan_su_presupuesto_del_súper_con_esta/"
+      "title": "Creen que Walmex se recupere?",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tv0s1l/creen_que_walmex_se_recupere/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "SPCE 🚀🌝",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1ttza4e/spce/"
-    },
-    {
-      "sub": "MexicoFinanciero",
-      "title": "En qué consiste una “dacion” al banco por una hipoteca?? Es conveniente?",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tu5mz8/en_qué_consiste_una_dacion_al_banco_por_una/"
+      "title": "¿Qué pasa con GBM? Aparece mensaje que no tiene información en tiempo real",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tvpqaq/qué_pasa_con_gbm_aparece_mensaje_que_no_tiene/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "Pregunta tonta pero de alguien con corazón cristiano",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tu2b82/pregunta_tonta_pero_de_alguien_con_corazón/"
-    },
-    {
-      "sub": "MexicoFinanciero",
-      "title": "Ayuda con RESICO + Sueldos y Salarios + inversiones en bolsa/cripto",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tu5l9p/ayuda_con_resico_sueldos_y_salarios_inversiones/"
-    },
-    {
-      "sub": "MexicoBursatil",
-      "title": "Noticias más importantes en finanzas, economía y negocios / Lunes 1 de Junio",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tu9odx/noticias_más_importantes_en_finanzas_economía_y/"
+      "title": "Raza, yo sé que aquí odiamos lo local, pero cómo ven para largo plazo y por ingresos pasivos a Kimberly-Clark de México y Walmex?",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1tvq67c/raza_yo_sé_que_aquí_odiamos_lo_local_pero_cómo/"
     }
   ],
   "extra": [
     {
       "sub": "sidehustle",
-      "title": "AI Training side gig",
-      "url": "https://www.reddit.com/r/sidehustle/comments/1tu0wmz/ai_training_side_gig/"
+      "title": "Sidehustle slowchat: What were your wins and fails this week?",
+      "url": "https://www.reddit.com/r/sidehustle/comments/1tv0n8v/sidehustle_slowchat_what_were_your_wins_and_fails/"
     },
     {
       "sub": "beermoney",
-      "title": "Webtest Club | Anyone encouter this error?",
-      "url": "https://www.reddit.com/r/beermoney/comments/1tu7h0q/webtest_club_anyone_encouter_this_error/"
+      "title": "What are TRULY passive apps that pay",
+      "url": "https://www.reddit.com/r/beermoney/comments/1tvh0qz/what_are_truly_passive_apps_that_pay/"
     },
     {
       "sub": "passive_income",
-      "title": "46F Looking for Legit Work-From-Home Side Income Ideas",
-      "url": "https://www.reddit.com/r/passive_income/comments/1tu3muw/46f_looking_for_legit_workfromhome_side_income/"
+      "title": "Owning rentals has been way less “passive” than people make it sound",
+      "url": "https://www.reddit.com/r/passive_income/comments/1tuzy9u/owning_rentals_has_been_way_less_passive_than/"
     },
     {
       "sub": "Flipping",
-      "title": "Found in a storage unit won at auction",
-      "url": "https://www.reddit.com/r/Flipping/comments/1tuqfi9/found_in_a_storage_unit_won_at_auction/"
+      "title": "Thrift stores and their greed is one thing.",
+      "url": "https://www.reddit.com/r/Flipping/comments/1tvcxel/thrift_stores_and_their_greed_is_one_thing/"
     },
     {
       "sub": "Entrepreneur",
-      "title": "Before you quit your job to start a business, answer these 3 questions",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tucfda/before_you_quit_your_job_to_start_a_business/"
+      "title": "What's the most impressive AI automation running in your business today?",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tvildd/whats_the_most_impressive_ai_automation_running/"
     },
     {
       "sub": "EtsySellers",
-      "title": "A Wild Etsy Customer Appeared! (First Non-Friends/Family Sale!)",
-      "url": "https://www.reddit.com/r/EtsySellers/comments/1tu2ubb/a_wild_etsy_customer_appeared_first/"
+      "title": "First Review! And it was 5 stars!",
+      "url": "https://www.reddit.com/r/EtsySellers/comments/1tv78j1/first_review_and_it_was_5_stars/"
     },
     {
       "sub": "WorkOnline",
-      "title": "If you were a teenager in Africa, how would you build income without relying on freelancing websites?",
-      "url": "https://www.reddit.com/r/WorkOnline/comments/1tubffk/if_you_were_a_teenager_in_africa_how_would_you/"
+      "title": "Teleperformance",
+      "url": "https://www.reddit.com/r/WorkOnline/comments/1tv2ep1/teleperformance/"
     },
     {
       "sub": "sidehustle",
-      "title": "Lots of free time what can I do?",
-      "url": "https://www.reddit.com/r/sidehustle/comments/1tuf6b8/lots_of_free_time_what_can_i_do/"
+      "title": "How to market niche item",
+      "url": "https://www.reddit.com/r/sidehustle/comments/1tvorjv/how_to_market_niche_item/"
     }
   ]
 }
