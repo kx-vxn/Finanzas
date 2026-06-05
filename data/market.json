@@ -1,35 +1,29 @@
 {
-  "updated": "2026-06-04",
+  "updated": "2026-06-05",
   "source": "stooq+coingecko",
   "markets": [
     {
       "name": "S&P 500",
-      "price": 7541.9,
-      "changePct": 0.21,
-      "currency": "USD"
-    },
-    {
-      "name": "NASDAQ",
-      "price": 26592.36,
-      "changePct": 0.09,
+      "price": 7502.6,
+      "changePct": -0.44,
       "currency": "USD"
     },
     {
       "name": "Oro (oz)",
-      "price": 4490.15,
-      "changePct": 1.14,
+      "price": 4378.23,
+      "changePct": -2.15,
       "currency": "USD"
     },
     {
       "name": "Bitcoin",
-      "price": 64208,
-      "changePct": -3.76,
+      "price": 60824,
+      "changePct": -4.98,
       "currency": "USD"
     },
     {
       "name": "Ethereum",
-      "price": 1783.36,
-      "changePct": -4.22,
+      "price": 1619.24,
+      "changePct": -9.15,
       "currency": "USD"
     }
   ]
