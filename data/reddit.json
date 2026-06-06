@@ -1,120 +1,125 @@
 {
-  "updated": "2026-06-05",
+  "updated": "2026-06-06",
   "source": "reddit",
   "us": [
     {
       "sub": "personalfinance",
-      "title": "Three years ago my boss gave me 15% equity in our agency instead of a raise. Now I owe $14k in estimated taxes next week for profits I’m not allowed to touch.",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1twuyo3/three_years_ago_my_boss_gave_me_15_equity_in_our/"
+      "title": "Employer failed to deposit my 401k contributions for 18 months and is offering a flat settlement",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1tydiqd/employer_failed_to_deposit_my_401k_contributions/"
     },
     {
       "sub": "investing",
-      "title": "S&P500 Index Committee to NOT Change Rules Regarding Megacaps",
-      "url": "https://www.reddit.com/r/investing/comments/1tx1la7/sp500_index_committee_to_not_change_rules/"
+      "title": "Google to pay SpaceX $920 million a month for compute capacity at xAI data centers",
+      "url": "https://www.reddit.com/r/investing/comments/1txwl76/google_to_pay_spacex_920_million_a_month_for/"
     },
     {
       "sub": "Bogleheads",
-      "title": "SP 500 stays put on inclusion criteria",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1tx3fpe/sp_500_stays_put_on_inclusion_criteria/"
+      "title": "The sky is falling! Run for the hills!",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1ty71to/the_sky_is_falling_run_for_the_hills/"
     },
     {
       "sub": "financialindependence",
-      "title": "Daily FI discussion thread - Friday, June 05, 2026",
-      "url": "https://www.reddit.com/r/financialindependence/comments/1txefhd/daily_fi_discussion_thread_friday_june_05_2026/"
+      "title": "Finally hit 7 figures yesterday.",
+      "url": "https://www.reddit.com/r/financialindependence/comments/1txxlp9/finally_hit_7_figures_yesterday/"
     },
     {
       "sub": "stocks",
-      "title": "S&P will NOT be changing their inclusion rules for MegaCap IPOs like SpaceX",
-      "url": "https://www.reddit.com/r/stocks/comments/1tx30lf/sp_will_not_be_changing_their_inclusion_rules_for/"
+      "title": "There is a bloodbath",
+      "url": "https://www.reddit.com/r/stocks/comments/1txtobk/there_is_a_bloodbath/"
     },
     {
       "sub": "personalfinance",
-      "title": "Struggling to contribute to my 401k",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1twsgx9/struggling_to_contribute_to_my_401k/"
+      "title": "The car has to go, nothing left to ditch.",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1txmumd/the_car_has_to_go_nothing_left_to_ditch/"
     },
     {
       "sub": "investing",
-      "title": "New Congressional Trade Disclosed: 20% median return, 95% win rate",
-      "url": "https://www.reddit.com/r/investing/comments/1twy92q/new_congressional_trade_disclosed_20_median/"
+      "title": "What actually makes stocks valuable? Is it pure speculation or do they hold intrinsic value?",
+      "url": "https://www.reddit.com/r/investing/comments/1ty056e/what_actually_makes_stocks_valuable_is_it_pure/"
     },
     {
       "sub": "Bogleheads",
-      "title": "One less boomer getting fleeced by EJ",
-      "url": "https://www.reddit.com/r/Bogleheads/comments/1twxf4t/one_less_boomer_getting_fleeced_by_ej/"
+      "title": "At what long term rate would you go full bonds?",
+      "url": "https://www.reddit.com/r/Bogleheads/comments/1txyuyn/at_what_long_term_rate_would_you_go_full_bonds/"
     }
   ],
   "mx": [
     {
       "sub": "MexicoFinanciero",
-      "title": "Experiencias con el credito automotriz BBVA.",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1twqey2/experiencias_con_el_credito_automotriz_bbva/"
+      "title": "Recomendación sobre libro de Fibras (CBFI)",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1txpqg3/recomendación_sobre_libro_de_fibras_cbfi/"
     },
     {
       "sub": "MexicoBursatil",
-      "title": "Día 8— AVGO +12,11% después de que PANW superara expectativas. Lo anticipamos ayer.",
-      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1twuo84/día_8_avgo_1211_después_de_que_panw_superara/"
+      "title": "Semana 2 cerrada, de +11% a +3,76%. AVGO golpeó fuerte📉.",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1txy24a/semana_2_cerrada_de_11_a_376_avgo_golpeó_fuerte/"
     },
     {
       "sub": "MexicoFinanciero",
-      "title": "Alguien sabe en dónde conviene invertir actualmente?",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tx4mt8/alguien_sabe_en_dónde_conviene_invertir/"
+      "title": "¿Cómo logran que siempre duplique el fondo de ahorro?",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1txmh3l/cómo_logran_que_siempre_duplique_el_fondo_de/"
+    },
+    {
+      "sub": "MexicoBursatil",
+      "title": "$MU cotiza 74% por encima de su media de 50 días y 187% sobre la de 200. Para los que en r/MexicoBursatil mezclan técnico con fundamental, aquí los números completos",
+      "url": "https://www.reddit.com/r/MexicoBursatil/comments/1txwg2a/mu_cotiza_74_por_encima_de_su_media_de_50_días_y/"
     },
     {
       "sub": "MexicoFinanciero",
-      "title": "Noticias más importantes en finanzas, economía y negocios / Jueves 4 de Junio de",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tx7wbq/noticias_más_importantes_en_finanzas_economía_y/"
+      "title": "Que alguien me explique las opciones que tengo como inversionista pequeño de fibra MQ después de la adquisición por fibra MTY",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1txncwk/que_alguien_me_explique_las_opciones_que_tengo/"
     },
     {
       "sub": "MexicoFinanciero",
-      "title": "SpaceX llegara a México SPCX? (Atreves de GBM Actinver)",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1tx3veh/spacex_llegara_a_méxico_spcx_atreves_de_gbm/"
+      "title": "¿Que harian con 25,000M2 \"en medio de la nada\" pero a pie de carretera? Ademas de un Oxxo y Gasolinera",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1ty66iy/que_harian_con_25000m2_en_medio_de_la_nada_pero_a/"
     },
     {
       "sub": "MexicoFinanciero",
-      "title": "Regresando a México. ¿Alguien conoce un buen Contador/CPA para cuentas de retiro de EUA?",
-      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1twtral/regresando_a_méxico_alguien_conoce_un_buen/"
+      "title": "Ayuda con la deuda de mi novia y app montadeudas.",
+      "url": "https://www.reddit.com/r/MexicoFinanciero/comments/1ty7vue/ayuda_con_la_deuda_de_mi_novia_y_app_montadeudas/"
     }
   ],
   "extra": [
     {
       "sub": "sidehustle",
-      "title": "Advice needed: launching online diabetes & nutrition consultation service",
-      "url": "https://www.reddit.com/r/sidehustle/comments/1twoqer/advice_needed_launching_online_diabetes_nutrition/"
+      "title": "Anyone tried Turo/Renting their car out?",
+      "url": "https://www.reddit.com/r/sidehustle/comments/1tydhof/anyone_tried_turorenting_their_car_out/"
     },
     {
       "sub": "beermoney",
-      "title": "Respondent is horrible",
-      "url": "https://www.reddit.com/r/beermoney/comments/1twzobp/respondent_is_horrible/"
+      "title": "Sudden tracking issues in several Android apps, did something change in the background?",
+      "url": "https://www.reddit.com/r/beermoney/comments/1ty97pg/sudden_tracking_issues_in_several_android_apps/"
     },
     {
       "sub": "passive_income",
-      "title": "I accidentally built a small passive income stream that now covers my phone bill",
-      "url": "https://www.reddit.com/r/passive_income/comments/1twwlfj/i_accidentally_built_a_small_passive_income/"
+      "title": "​I made $60 in 15 minutes doing almost zero work. Then, I realized I was being set up.",
+      "url": "https://www.reddit.com/r/passive_income/comments/1txvysa/i_made_60_in_15_minutes_doing_almost_zero_work/"
     },
     {
       "sub": "Flipping",
-      "title": "Does anybody else have a \"Code\" or rules they follow?",
-      "url": "https://www.reddit.com/r/Flipping/comments/1tx0ctg/does_anybody_else_have_a_code_or_rules_they_follow/"
+      "title": "Is it me, but the more a person asks about an item, the more issue that person is going to be as a buyer?",
+      "url": "https://www.reddit.com/r/Flipping/comments/1txsdel/is_it_me_but_the_more_a_person_asks_about_an_item/"
     },
     {
       "sub": "Entrepreneur",
-      "title": "A Hard Lesson I Learned at 23: Never Work for Free Based Solely on Promises",
-      "url": "https://www.reddit.com/r/Entrepreneur/comments/1tx2b51/a_hard_lesson_i_learned_at_23_never_work_for_free/"
-    },
-    {
-      "sub": "freelance",
-      "title": "Any real people try Harlow's \"The Revenue Accelerator\"",
-      "url": "https://www.reddit.com/r/freelance/comments/1twtclj/any_real_people_try_harlows_the_revenue/"
+      "title": "Left a $120k job to freelance. Lost my only client 6 weeks ago. feel dead inside.",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1txq8b2/left_a_120k_job_to_freelance_lost_my_only_client/"
     },
     {
       "sub": "EtsySellers",
-      "title": "New Discount Feature - Interested Buyers?",
-      "url": "https://www.reddit.com/r/EtsySellers/comments/1txe7zz/new_discount_feature_interested_buyers/"
+      "title": "My 1st sale",
+      "url": "https://www.reddit.com/r/EtsySellers/comments/1txjxcx/my_1st_sale/"
     },
     {
       "sub": "WorkOnline",
-      "title": "Telus International \"Profile\" Info",
-      "url": "https://www.reddit.com/r/WorkOnline/comments/1tx1pnh/telus_international_profile_info/"
+      "title": "Work without Valid ID",
+      "url": "https://www.reddit.com/r/WorkOnline/comments/1ty5fc6/work_without_valid_id/"
+    },
+    {
+      "sub": "beermoney",
+      "title": "Why wont my password pop up in my email on www.respondent.io.com anyone having the same problem?",
+      "url": "https://www.reddit.com/r/beermoney/comments/1txojsh/why_wont_my_password_pop_up_in_my_email_on/"
     }
   ]
 }
