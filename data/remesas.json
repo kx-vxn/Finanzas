@@ -1,37 +1,37 @@
 {
-  "updated": "2026-07-09",
-  "midRate": 17.5789,
+  "updated": "2026-07-10",
+  "midRate": 17.5447,
   "source": "estimado",
   "providers": [
     {
       "name": "Wise",
       "color": "#9FE870",
       "fee": 6.5,
-      "rate": 17.491
+      "rate": 17.457
     },
     {
       "name": "Remitly",
       "color": "#5B8DEF",
       "fee": 0,
-      "rate": 17.4207
+      "rate": 17.3868
     },
     {
       "name": "Xoom (PayPal)",
       "color": "#6BA8F2",
       "fee": 2.99,
-      "rate": 17.2625
+      "rate": 17.2289
     },
     {
       "name": "MoneyGram",
       "color": "#F2756B",
       "fee": 1.99,
-      "rate": 17.1218
+      "rate": 17.0886
     },
     {
       "name": "Western Union",
       "color": "#FFD200",
       "fee": 0,
-      "rate": 17.0339
+      "rate": 17.0009
     }
   ]
 }
