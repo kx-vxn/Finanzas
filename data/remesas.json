@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11",
+  "updated": "2026-07-12",
   "midRate": 17.4963,
   "source": "estimado",
   "providers": [
@@ -19,7 +19,7 @@
       "name": "Xoom (PayPal)",
       "color": "#6BA8F2",
       "fee": 2.99,
-      "rate": 17.1814
+      "rate": 17.1813
     },
     {
       "name": "MoneyGram",
