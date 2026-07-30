@@ -1,31 +1,46 @@
 {
-  "updated": "2026-07-29",
+  "updated": "2026-07-30",
   "source": "reddit",
   "us": [
     {
       "sub": "personalfinance",
-      "title": "Filed a chargeback, merchant reached out telling me to cancel",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1v7f1xf/filed_a_chargeback_merchant_reached_out_telling/"
+      "title": "Unexpected Inheritance - Overwhelmed",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1va7mgv/unexpected_inheritance_overwhelmed/"
+    },
+    {
+      "sub": "investing",
+      "title": "Does the Fed decision even matter if the 30-year stays above 5%?",
+      "url": "https://www.reddit.com/r/investing/comments/1vakwym/does_the_fed_decision_even_matter_if_the_30year/"
     },
     {
       "sub": "personalfinance",
-      "title": "30yr mortgage 50% down…",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1v7g3ma/30yr_mortgage_50_down/"
+      "title": "I had a major loss at my house. Mortgage company is listed as payee on insurance check but won't pay the amount the repair company needs to start the work.",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1vaaxzj/i_had_a_major_loss_at_my_house_mortgage_company/"
+    },
+    {
+      "sub": "investing",
+      "title": "Explain it to me like I’m 5. Benefits of contributing to 401k and/or Roth IRA through my job",
+      "url": "https://www.reddit.com/r/investing/comments/1va2q38/explain_it_to_me_like_im_5_benefits_of/"
     },
     {
       "sub": "personalfinance",
-      "title": "When to stop funding 401k",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1v7xa0z/when_to_stop_funding_401k/"
+      "title": "Can You Use an HSA for Blood Tests You Order Yourself?",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1vaan47/can_you_use_an_hsa_for_blood_tests_you_order/"
+    },
+    {
+      "sub": "investing",
+      "title": "At what age should you stop focusing on growth and start focusing on income?",
+      "url": "https://www.reddit.com/r/investing/comments/1v9zxi5/at_what_age_should_you_stop_focusing_on_growth/"
     },
     {
       "sub": "personalfinance",
-      "title": "moving out of state with $100?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1v7iv3e/moving_out_of_state_with_100/"
+      "title": "Best HYSA options out there right now?",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1vagcpx/best_hysa_options_out_there_right_now/"
     },
     {
-      "sub": "personalfinance",
-      "title": "Overly funded custodial account",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1v7o1j1/overly_funded_custodial_account/"
+      "sub": "investing",
+      "title": "Tried P2P lending as alternative to Bonds and Mutual Funds",
+      "url": "https://www.reddit.com/r/investing/comments/1vapyqe/tried_p2p_lending_as_alternative_to_bonds_and/"
     }
   ],
   "mx": [
