@@ -1,31 +1,46 @@
 {
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "source": "reddit",
   "us": [
     {
       "sub": "personalfinance",
-      "title": "$8k in CC debt, and $6k in savings — Should I just pay my CC?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1vjubji/8k_in_cc_debt_and_6k_in_savings_should_i_just_pay/"
+      "title": "One of my credit cards keeps offering to increase my limit, is there a reason not to do it?",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1vnkcd1/one_of_my_credit_cards_keeps_offering_to_increase/"
+    },
+    {
+      "sub": "investing",
+      "title": "[via Y!Finance:] Reddit Shares Surge on S&P 500 Inclusion Later This Month",
+      "url": "https://www.reddit.com/r/investing/comments/1vnu5rr/via_yfinance_reddit_shares_surge_on_sp_500/"
     },
     {
       "sub": "personalfinance",
-      "title": "Spiraling and I need some fresh eyes on the situation",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1vk5ef1/spiraling_and_i_need_some_fresh_eyes_on_the/"
+      "title": "Partner got a new job, they’re asking for a TON of my financial info",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1vns5we/partner_got_a_new_job_theyre_asking_for_a_ton_of/"
+    },
+    {
+      "sub": "investing",
+      "title": "What do you guys think of putting money into US treasury/ bonds?",
+      "url": "https://www.reddit.com/r/investing/comments/1vngm4i/what_do_you_guys_think_of_putting_money_into_us/"
     },
     {
       "sub": "personalfinance",
-      "title": "Discovered physical paper registered shares of a company after my father passed. Who do I contact?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1vjylhd/discovered_physical_paper_registered_shares_of_a/"
+      "title": "Co-signer, received collections notice",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1vnmgal/cosigner_received_collections_notice/"
+    },
+    {
+      "sub": "investing",
+      "title": "Need diversification advice",
+      "url": "https://www.reddit.com/r/investing/comments/1vnb0tm/need_diversification_advice/"
     },
     {
       "sub": "personalfinance",
-      "title": "Roth vs Trad 401k for a Younger High Earner",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1vk2s99/roth_vs_trad_401k_for_a_younger_high_earner/"
+      "title": "Advice on inheritance , 21 yo senior",
+      "url": "https://www.reddit.com/r/personalfinance/comments/1vnfa2b/advice_on_inheritance_21_yo_senior/"
     },
     {
-      "sub": "personalfinance",
-      "title": "HYSA vs. Traditional vs. Roth IRA...help?",
-      "url": "https://www.reddit.com/r/personalfinance/comments/1vjpicr/hysa_vs_traditional_vs_roth_irahelp/"
+      "sub": "investing",
+      "title": "Selling all of my BTC slowly every month (not all at once) to re-buy the SP500",
+      "url": "https://www.reddit.com/r/investing/comments/1vo4qn8/selling_all_of_my_btc_slowly_every_month_not_all/"
     }
   ],
   "mx": [
