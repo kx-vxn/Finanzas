@@ -1,17 +1,17 @@
 {
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "source": "stooq+coingecko",
   "markets": [
     {
       "name": "Bitcoin",
-      "price": 79691,
-      "changePct": 0.12,
+      "price": 79796,
+      "changePct": 0.17,
       "currency": "USD"
     },
     {
       "name": "Ethereum",
-      "price": 2457.52,
-      "changePct": -0.08,
+      "price": 2492.22,
+      "changePct": 1.5,
       "currency": "USD"
     }
   ]
