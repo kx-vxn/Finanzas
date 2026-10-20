@@ -1,20 +1,20 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "source": "yahoo+curated",
   "tickers": [
     {
       "ticker": "DJT",
       "name": "Trump Media & Technology",
       "tag": "Empresa fundada por Donald Trump",
-      "price": 6.57,
-      "change1d": -6.08,
-      "ret1m": -25.8,
-      "ret1y": -58.9,
-      "val1k1m": 742,
-      "val1k1y": 411,
+      "price": 6.49,
+      "change1d": 0.86,
+      "ret1m": -28.9,
+      "ret1y": -59.4,
+      "val1k1m": 711,
+      "val1k1y": 406,
       "annualVol": 69,
-      "projLow": 4.65,
-      "projHigh": 9.26,
+      "projLow": 4.6,
+      "projHigh": 9.15,
       "sparkline": [
         15.99,
         15.84,
@@ -79,22 +79,22 @@
         8.63,
         8.11,
         7.4,
-        6.57
+        6.49
       ]
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
       "tag": "Compras reportadas por Nancy Pelosi (calls de NVDA)",
-      "price": 217.87,
-      "change1d": 1.75,
-      "ret1m": -2,
-      "ret1y": 19.3,
-      "val1k1m": 980,
-      "val1k1y": 1193,
+      "price": 216.42,
+      "change1d": -0.31,
+      "ret1m": -4.8,
+      "ret1y": 18.5,
+      "val1k1m": 952,
+      "val1k1y": 1185,
       "annualVol": 37,
-      "projLow": 180.86,
-      "projHigh": 262.46,
+      "projLow": 179.73,
+      "projHigh": 260.6,
       "sparkline": [
         182.64,
         186.26,
@@ -159,22 +159,22 @@
         238.9,
         229.28,
         217.23,
-        217.87
+        216.42
       ]
     },
     {
       "ticker": "GOOGL",
       "name": "Alphabet (Google)",
       "tag": "Paul Pelosi y otros congresistas reportados",
-      "price": 344.5,
-      "change1d": 1.15,
-      "ret1m": -1.4,
-      "ret1y": 34.3,
-      "val1k1m": 986,
-      "val1k1y": 1343,
+      "price": 341.75,
+      "change1d": -0.71,
+      "ret1m": -3.7,
+      "ret1y": 33.2,
+      "val1k1m": 963,
+      "val1k1y": 1332,
       "annualVol": 31,
-      "projLow": 294.55,
-      "projHigh": 402.91,
+      "projLow": 292.28,
+      "projHigh": 399.59,
       "sparkline": [
         256.55,
         259.92,
@@ -239,22 +239,22 @@
         346.47,
         351.66,
         349.22,
-        344.5
+        341.75
       ]
     },
     {
       "ticker": "AAPL",
       "name": "Apple",
       "tag": "Operada por varios congresistas (Pelosi, Tuberville)",
-      "price": 342,
-      "change1d": -0.42,
-      "ret1m": 1.7,
-      "ret1y": 30.4,
-      "val1k1m": 1017,
-      "val1k1y": 1304,
+      "price": 340.47,
+      "change1d": -0.72,
+      "ret1m": 0.4,
+      "ret1y": 29.8,
+      "val1k1m": 1004,
+      "val1k1y": 1298,
       "annualVol": 24,
-      "projLow": 303.11,
-      "projHigh": 385.9,
+      "projLow": 301.8,
+      "projHigh": 384.09,
       "sparkline": [
         262.24,
         262.82,
@@ -318,22 +318,23 @@
         329.4,
         332.89,
         336.64,
-        342
+        342,
+        340.47
       ]
     },
     {
       "ticker": "TSLA",
       "name": "Tesla",
       "tag": "Tommy Tuberville y otros senadores la han operado",
-      "price": 367.62,
-      "change1d": 3.64,
-      "ret1m": 0.9,
-      "ret1y": -17.8,
-      "val1k1m": 1009,
-      "val1k1y": 822,
+      "price": 373.63,
+      "change1d": 1.51,
+      "ret1m": -0.4,
+      "ret1y": -16.5,
+      "val1k1m": 996,
+      "val1k1y": 835,
       "annualVol": 45,
-      "projLow": 293.2,
-      "projHigh": 460.94,
+      "projLow": 298.07,
+      "projHigh": 468.35,
       "sparkline": [
         447.43,
         433.72,
@@ -398,22 +399,22 @@
         378.73,
         382.7,
         362.44,
-        367.62
+        373.63
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
       "tag": "Contratos con el gobierno; operada por varios",
-      "price": 195.6,
-      "change1d": 5.14,
-      "ret1m": 10.1,
-      "ret1y": 7.7,
-      "val1k1m": 1101,
-      "val1k1y": 1077,
+      "price": 194.35,
+      "change1d": 0.1,
+      "ret1m": 6.1,
+      "ret1y": 7,
+      "val1k1m": 1061,
+      "val1k1y": 1070,
       "annualVol": 59,
-      "projLow": 145.45,
-      "projHigh": 263.05,
+      "projLow": 144.65,
+      "projHigh": 261.13,
       "sparkline": [
         181.59,
         184.63,
@@ -478,22 +479,22 @@
         189.4,
         209.05,
         200.5,
-        195.6
+        194.35
       ]
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft",
       "tag": "Reportada por Pelosi y otros senadores",
-      "price": 533.57,
-      "change1d": 0.85,
-      "ret1m": 8.1,
-      "ret1y": 3.2,
-      "val1k1m": 1081,
-      "val1k1y": 1032,
-      "annualVol": 33,
-      "projLow": 453.42,
-      "projHigh": 627.89,
+      "price": 530.87,
+      "change1d": -0.5,
+      "ret1m": 5.8,
+      "ret1y": 2.7,
+      "val1k1m": 1058,
+      "val1k1y": 1027,
+      "annualVol": 32,
+      "projLow": 451.26,
+      "projHigh": 624.52,
       "sparkline": [
         516.79,
         523.61,
@@ -558,22 +559,22 @@
         525.18,
         535.07,
         539.44,
-        533.57
+        530.87
       ]
     },
     {
       "ticker": "AMZN",
       "name": "Amazon",
       "tag": "Operada por varios congresistas",
-      "price": 262.62,
-      "change1d": 5.05,
-      "ret1m": 3.5,
-      "ret1y": 21.3,
-      "val1k1m": 1035,
-      "val1k1y": 1213,
+      "price": 263.17,
+      "change1d": 0.27,
+      "ret1m": 1.8,
+      "ret1y": 21.6,
+      "val1k1m": 1018,
+      "val1k1y": 1216,
       "annualVol": 34,
-      "projLow": 221.51,
-      "projHigh": 311.36,
+      "projLow": 222.06,
+      "projHigh": 311.88,
       "sparkline": [
         216.48,
         224.21,
@@ -638,7 +639,7 @@
         251.4,
         262.43,
         254.76,
-        262.62
+        263.17
       ]
     }
   ]
